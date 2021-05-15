@@ -1,0 +1,132 @@
+.detail-content{
+	width: 80%;
+	margin: auto;
+	padding: 50px 0;
+}
+
+.top-content{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+}
+.top-content a{
+	text-decoration: none;
+	color: #989898;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+}
+.middle-content{
+	padding-top: 100px;
+	text-align: center;
+}
+.food_describe{
+	text-align: left;
+}
+.f_detail{
+	width: 400px;
+	vertical-align: middle;
+	border-radius: 10px;
+	transition: transform 0.2s linear;
+	
+}
+.f_detail:hover{
+	transform: scale(1.1);
+}
+.order{
+	height: 150px;
+	position: relative;
+}
+.order a{
+	background: #c4171d;
+	color: #fff;
+	font-size: 20px;
+	padding: 11px 20px;
+	border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute; /*Cách căn chính giữa ptử cha */
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+h1:nth-child(1){
+	text-transform: capitalize;
+	font-size: 30px;
+    font-weight: 600;
+}
+.z{
+	border-bottom: 0.8px solid #e8e7e7;
+	padding-bottom: 12px;
+}
+
+.price{
+	font-weight: bold;
+    font-size: 20px;
+}
+.price1{
+	color: #960b0f;
+    font-size: 27px;
+    font-weight: 550;
+}
+
+
+
+
+.middle2 p{
+	font-weight: 500;
+	font-size: 17px;
+}
+.detail-bottom-content{
+	padding-top: 135px;
+}
+.bottom-text{
+	text-align: center;
+	padding-bottom: 75px;
+}
+.bottom-text h1{
+	font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+
+.row_img{
+	width: 300px;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+.logo-bottom{
+	width: 300px;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	margin-top: 7%;
+}
+.logo-bottom a{
+	width: 280px;
+	display: inline-block;
+	position: absolute; /*Cách căn chính giữa ptử cha */
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+}
+.pricez{
+	text-transform: uppercase;
+	font-family: inherit;
+    font-weight: 400;
+    color: #000000;
+	font-size: 20px;
+	padding-top: 5px;
+}
+.pricez1{
+	color: #fc3c3c;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+footer {
+    padding-top: 250px !important;
+}

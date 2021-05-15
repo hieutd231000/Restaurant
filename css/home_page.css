@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden;
+}
+.top-header{
+	background-color: #c02527;
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+.top-header-content{
+	position: absolute;
+	right: 25px;
+	top: 2px;
+}
+.top-header-content a{
+	font-family: 'UTM Trajan Pro Bold';
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+.country img{
+	width: 24px;
+	position: absolute;
+	right: 180px;
+    top: 7px;
+}
+#header .container-fluid{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.bottom-header{
+	background-color: #eedbff !important;
+}
+.content1-bottom-header{
+	padding-left: 30px;
+}
+.content1-bottom-header img{
+	width: 150px;
+}
+.content2-bottom-header{
+	display: inline;
+	float: left;
+	width: 1000px;
+	height: 80px;
+	padding-left: 65px;
+}
+#navbarSupportedContent{
+	padding-left: 35px;
+}
+#navbarSupportedContent>ul>li> a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'UTM Swiss 721 Black Condensed';
+	padding: 0 20px;
+	color: #c4161c;
+	text-transform: uppercase;
+}
+.db > a{
+	color: #ef9800 !important;
+}
+#navbarSupportedContent>ul>li> a:hover{
+	color: #ef9800 !important;
+}
+
+/*Menu cấp 2*/
+.sum > li > div{
+	display: none;
+}  
+.sum > li:hover > div{
+	display: block;
+}
+.td{
+	background-color: white;
+	width: 200px;
+}
+.td > a{
+	font-family: Roboto,sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #c4161c;
+	border-bottom: 1px solid grey;
+}
+
+/* card-bootstrap */
+.card-body > h2{
+	font-weight: 600;
+    font-size: 25px;
+    font-family: 'iCiel Bambola';
+    color: #c4161c;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.card-body{
+	background: rgba(249, 249, 249, 0.58);
+	box-shadow: 0px 3px 3px #ccc;
+	padding-top: 30px !important;
+	padding-bottom: 100px !important;
+}
+.card-body > a{
+	padding: 10px;
+	color: #c5161d;
+	font-weight: 700;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    border: 1px solid #c5161d;
+}
+
+

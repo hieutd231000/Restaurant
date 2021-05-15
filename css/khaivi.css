@@ -1,0 +1,108 @@
+#footer{
+	padding-top: 200px !important;
+}
+@media (max-width: 1023px){
+	#footer{
+		padding-top: 600px !important;
+	}
+}
+@media (max-width: 776px){
+	#footer{
+		padding-top: 2000px !important;
+	}
+}
+
+.menu-content{
+	width: 80%;
+	height: 1000px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.menu-top-content{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+}
+.menu-top-content a{
+	text-decoration: none;
+	color: #989898;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+}
+
+.menu-middle-content{
+	padding-top: 15px;
+	padding-bottom: 80px;
+	margin: auto;
+	text-align: center;
+}
+.menu-middle-content ul{
+	display: inline-block; 
+	/*cách căn giữa thẻ block bằng text-align: center 
+	trong trường hợp có văn bản text trong thẻ block
+	*/
+}
+.sum-menu > li{
+	list-style-type: none;
+	float: left;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+.sum-menu > li:first-child > a {
+	text-decoration: none;
+	color: #fff;
+    background: #950a0f;
+    font-family: 'UTM Trajan Pro Bold';
+    font-size: 22px;
+    padding: 11px 25px;
+    border-radius: 7%;
+    text-transform: capitalize;
+}
+
+.sum-menu > li > a {
+	text-decoration: none;
+	color: #950a0f;
+    background: #ffffff;
+    font-family: 'UTM Trajan Pro Bold';
+    font-size: 22px;
+    padding: 11px 25px;
+    border: 1px solid #950a0f;
+    border-radius: 7%;
+    text-transform: capitalize;
+
+}
+.sum-menu > li > a:hover {
+	color: #fff;
+    background: #950a0f;
+}
+
+.food{
+	text-align: center;
+	padding-bottom: 40%;
+}
+.card-body > h2{
+	font-weight: 600;
+    font-size: 15px;
+    font-family: 'iCiel Bambola';
+    color: #1b1b1b;
+    text-transform: uppercase;
+    padding-top: 5px;
+    letter-spacing: 0.1px;
+}
+
+.card-body{
+	background: rgba(249, 249, 249, 0.58);
+	box-shadow: 0px 3px 3px #ccc;
+	padding-top: 30px !important;
+	padding-bottom: 50px !important;
+}
+.card-body > a{
+	text-decoration: none;
+	color: #c5161d;
+	font-weight: 700;
+    font-family: 'Times New Roman';
+	text-transform: uppercase;
+	border: 1px solid #c5161d;
+
+}
