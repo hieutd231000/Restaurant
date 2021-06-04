@@ -76,3 +76,31 @@
     line-height: 1.5;
     padding-bottom: 5px;
 }
+
+.back-to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 55px;
+	z-index: 105;
+	display: none;
+  }
+.back-to-top img {
+	border-radius: 0.3125rem;
+}
+
+.text-btn {
+	cursor: pointer;
+	color: #f04e40;
+}
+.red-btn {
+	background-color: #f04e40 !important;
+	border-color: #f04e40 !important;
+	color: #fff !important;
+  }
+.red-btn:hover {
+	background-color: #ce2e2f !important;
+	border-color: #ce2e2f !important;
+ }
+.red-btn:active {
+	background-color: #f04e40 !important;
+  }

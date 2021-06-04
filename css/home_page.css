@@ -14,18 +14,21 @@ body{
 	right: 25px;
 	top: 2px;
 }
-.top-header-content a{
+.top-header-content > li{
+	list-style-type: none;
+}
+.top-header-content > li > a{
 	font-family: 'UTM Trajan Pro Bold';
     color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 0.3px;
-    text-decoration: none;
+	text-decoration: none;
 }
 .country img{
 	width: 24px;
 	position: absolute;
-	right: 180px;
+	left: 15px;
     top: 7px;
 }
 #header .container-fluid{
@@ -49,7 +52,10 @@ body{
 	padding-left: 65px;
 }
 #navbarSupportedContent{
-	padding-left: 35px;
+	padding-left: 10%;
+}
+.nav-link{
+	padding: 0px 40px !important;
 }
 #navbarSupportedContent>ul>li> a{
 	text-decoration: none;
@@ -85,6 +91,7 @@ body{
 	text-decoration: none;
 	text-transform: capitalize;
 	color: #c4161c;
+	line-height: 35px;
 	border-bottom: 1px solid grey;
 }
 
