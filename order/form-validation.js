@@ -13,8 +13,12 @@
           event.preventDefault()
           event.stopPropagation()
         }
+        else if(form.checkValidity()){
+          alert("Bạn đã đặt món thành công");
+        }
 
         form.classList.add('was-validated')
+       
       }, false)
     })
 })()
